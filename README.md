@@ -28,3 +28,4 @@ Please check and following the section [Prerequisites](https://stripe.com/docs/s
 ### Troubleshooting
 * Apple Pay -  when testing web be sure that you have added your card to Apple Wallet [Set up Apple Pay](https://support.apple.com/en-us/HT204506)
 * Google Pay -  when testing web be sure that you have added your card to Google Wallet [Add a debit or credit card](https://support.google.com/wallet/answer/12058983?hl=en)
+* Google Pay -  when testing web be sure that you have added your card to Google Wallet [Fill out forms automatically](https://support.google.com/chrome/answer/142893?hl=en&co=GENIE.Platform%3DDesktop)
