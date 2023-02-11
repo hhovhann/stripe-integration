@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Buy new product</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="stylesheets/style.css">
     <script src="https://js.stripe.com/v3/"></script>
 </head>
@@ -14,10 +15,6 @@
             <h5>$49.95</h5>
         </div>
     </div>
-
-<!--    <div id="payment-request-button">-->
-<!--        &lt;!&ndash; A Stripe Element will be inserted here. &ndash;&gt;-->
-<!--    </div>-->
     <form action="/create-checkout-session" method="POST">
         <button type="submit" id="checkout-button">Checkout</button>
     </form>
