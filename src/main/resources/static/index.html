@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Stripe Integration</title>
+    <title>Buy new product</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
-<ul>
-    <li><a href="https://stripe.com/docs/stripe-js/elements/payment-request-button">Apple Pay</a></li>
-    <li><a href="https://stripe.com/docs/stripe-js/elements/payment-request-button">Google Pay</a></li>
-    <li><a href="https://stripe.com/docs/stripe-js/elements/payment-request-button">Link Pay</a></li>
-</ul>
+<section>
+    <div class="product">
+        <img class="line-item-image" src="https://furfy.com.au/images/products/thumbnails/furfy-thumbnail.jpg"/>
+        <div class="description">
+            <h3>Furfy</h3>
+            <h5>$49.95</h5>
+        </div>
+    </div>
+
+<!--    <div id="payment-request-button">-->
+<!--        &lt;!&ndash; A Stripe Element will be inserted here. &ndash;&gt;-->
+<!--    </div>-->
+    <form action="/create-checkout-session" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+    </form>
+</section>
 </body>
 </html>
