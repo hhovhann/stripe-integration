@@ -23,3 +23,8 @@ Please check and following the section [Prerequisites](https://stripe.com/docs/s
 [Accept payments with Stripe Checkout](https://github.com/stripe-samples/checkout-one-time-payments)
 [Accept an Apple Pay payment with Stripe.js](https://www.youtube.com/watch?v=5KcdQboA7Gc)
 [Live Coding #1: Stripe payment integration - By @MarcoCodes](https://www.youtube.com/watch?v=BIDNKRluql4)
+
+
+### Troubleshooting
+* Apple Pay -  when testing web be sure that you have added your card to Apple Wallet [Set up Apple Pay](https://support.apple.com/en-us/HT204506)
+* Google Pay -  when testing web be sure that you have added your card to Google Wallet [Add a debit or credit card](https://support.google.com/wallet/answer/12058983?hl=en)
