@@ -16,10 +16,10 @@ public class StripeController {
 
   @PostMapping("/create-checkout-session")
   public String createPaymentIntent(HttpServletResponse response) throws Exception {
-
     Session session = stripeService.createCheckoutSession();
     response.setStatus(303);
     response.sendRedirect(session.getUrl());
+
     return "";
   }
 }
