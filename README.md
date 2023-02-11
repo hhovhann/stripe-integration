@@ -12,6 +12,12 @@ Please check and following the section [Prerequisites](https://stripe.com/docs/s
 ### Testing
 [Testing Interactively](https://stripe.com/docs/testing#testing-interactively)
 
+#### Testing cards
+* 4242424242424242 success
+* 4000000000000002 decline
+* 4000000000003220 authentication
+
+
 ### References
 [Payment Request Button](https://stripe.com/docs/stripe-js/elements/payment-request-button)
 [Accept payments with Stripe Checkout](https://github.com/stripe-samples/checkout-one-time-payments)
